@@ -48,7 +48,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
           </HText>
           <p className="my-5">
             Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
+            sapien vel rhoncus. Placerat at in enim pellentesque. Nulle
             adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
           </p>
         </motion.div>
