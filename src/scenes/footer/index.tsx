@@ -8,7 +8,7 @@ const Footer = () => {
           <img alt="logo" src={Logo} />
           <p className="my-5">
             Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-            purus et arcu massa dictum condimentum. Augue scelerisque iaculis
+            purus et  massa dictum condimentum. Augue scelerisque iaculis
             orci ut habitant laoreet. Iaculis tristique.
           </p>
           <p>© Evogym All Rights Reserved.</p>
