@@ -10,7 +10,7 @@ type Props = {
 
 const ContactUs = ({setSelectedPage}: Props) => {
 
-  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300
+  const inputStyles = `mb-6 w-full rounded-lg bg-primary-300
   px-5 py-3.1 placeholder-white`;
 
 
@@ -31,12 +31,12 @@ const ContactUs = ({setSelectedPage}: Props) => {
    <section  id="contactus" className="mx-auto w-5/6 pt-24 pb-32">
     <motion.div
     onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}>
-       {/* HEADER */}
+       {/* HEADER  */}
        <motion.div
           className="md:w-3/5"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0. }}
           transition={{ duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
@@ -44,7 +44,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
+            <span className="text-primary-500">Join Now</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
             Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
